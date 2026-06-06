@@ -26,9 +26,9 @@
 <table align="center" width="100%">
   <tr>
     <td width="60%">
-      <p>I'm a passionate <b>Full Stack Developer</b> specializing in <b>Laravel</b> and modern web technologies. With a strong focus on building robust <b>Web Applications</b> and <b>Business Systems</b>, I help businesses transform their ideas into scalable digital solutions.</p>
+      <p>I'm a passionate <b>Full Stack Developer</b> specializing in <b>Laravel</b> and modern web technologies. With a strong focus on <b>Web Applications</b> and <b>Business Systems</b>, I help businesses transform their ideas into scalable digital solutions.</p>
       
-      <details>
+      <details open>
         <summary><b>📌 More about me</b></summary>
         <ul>
           <li>🔭 Working on <b>advanced Laravel applications</b> and <b>enterprise business systems</b></li>
@@ -40,10 +40,11 @@
       </details>
     </td>
     <td align="center" width="40%">
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGZldTN6ZWNpa2R6OHh5bmpxa2Y4ZXU4MmNpaXZvNHFud2dnY3R0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
     </td>
   </tr>
 </table>
+
 
 ---
 
@@ -101,13 +102,13 @@
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=boyslgaol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&icon_color=2E9AFF&rank_icon=github" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boyslgaol&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9AFF&ring=2E9AFF&fire=2E9AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2E9AFF&sideLabels=2E9AFF" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=boyslgaol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&icon_color=2E9AFF&rank_icon=github" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boyslgaol&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9AFF&ring=2E9AFF&fire=2E9AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2E9AFF&sideLabels=2E9AFF" alt="GitHub Streak" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boyslgaol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&langs_count=8" alt="Top Languages" width="45%" />
-  <img src="https://github-profile-trophy.vercel.app/?username=boyslgaol&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boyslgaol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&langs_count=8" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=boyslgaol&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" width="48%" />
 </p>
 
 ---
@@ -168,42 +169,26 @@
 
 ---
 
-### 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=boyslgaol&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2E9AFF&line=2E9AFF&point=FFFFFF&area=true&area_color=2E9AFF&radius=10" alt="Activity Graph" width="95%" />
-</p>
-
----
-
-### 🎵 What I'm Listening To
-
-<p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31qx4trrv6avwkttb6er7drtxkby&cover_image=true&theme=compact&show_offline=false&background_color=0D1117&interchange=false&bar_color=2E9AFF&bar_color_cover=true" alt="Spotify" />
-</p>
-
----
-
 ### 🤝 Let's Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/boyseventrilumbangaol/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=25" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/boyslgaol">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&logoWidth=25" />
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://boyslgaol.github.io/portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&logoWidth=25" />
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="mailto:boylgaol73@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&logoWidth=25" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://instagram.com/boyslgaol">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=25" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
   <a href="https://twitter.com/boyslgaol">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&logoWidth=25" />
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
 </p>
 
@@ -220,21 +205,13 @@
 ### 📌 GitHub Metrics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=boyslgaol&theme=radical" alt="Profile Details" width="90%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=boyslgaol&theme=tokyonight" alt="Profile Details" width="90%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=boyslgaol&theme=radical" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=boyslgaol&theme=radical" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boyslgaol&theme=radical" width="32%" />
-</p>
-
----
-
-### 🐍 Snake Game Contribution Grid
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/boyslgaol/boyslgaol/output/github-contribution-grid-snake-dark.svg" width="90%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=boyslgaol&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=boyslgaol&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boyslgaol&theme=tokyonight" width="32%" />
 </p>
 
 ---
