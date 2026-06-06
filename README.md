@@ -102,13 +102,7 @@
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=boyslgaol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&icon_color=2E9AFF&rank_icon=github" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boyslgaol&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9AFF&ring=2E9AFF&fire=2E9AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2E9AFF&sideLabels=2E9AFF" alt="GitHub Streak" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boyslgaol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&langs_count=8" alt="Top Languages" width="48%" />
-  <img src="https://github-profile-trophy.vercel.app/?username=boyslgaol&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" width="48%" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=boyslgaol&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9AFF&ring=2E9AFF&fire=2E9AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2E9AFF&sideLabels=2E9AFF" alt="GitHub Streak" width="49%" />
 </p>
 
 ---
@@ -184,12 +178,10 @@
   <a href="mailto:boylgaol73@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://instagram.com/boyslgaol">
+  <a href="https://www.instagram.com/boy_lgaol10/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <a href="https://twitter.com/boyslgaol">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
+  
 </p>
 
 ---
