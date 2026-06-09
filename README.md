@@ -4,7 +4,7 @@
 
 <h3 align="center">
   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-  Laravel Artisan | Full Stack Developer | Business Solutions Architect
+  Laravel Developer | Full Stack Developer | Business Solutions Architect
   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 </h3>
 
