@@ -19,8 +19,6 @@
 
 ### 🚀 About Me
 
-### 🚀 About Me
-
 <p align="center">
   <img src="img/baner.png" alt="Banner Boy" width="80%" style="border-radius: 20px; box-shadow: 0 4px 15px rgba(46,154,255,0.3);" />
 </p>
