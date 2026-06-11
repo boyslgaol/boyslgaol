@@ -176,216 +176,74 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </p>
 
 ---
-### ♟️ Play Chess Game
+### ♟️ Community Chess Game
 
 <div align="center">
-  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 20px; border-radius: 20px; display: inline-block; width: 100%; max-width: 550px;">
-    
-    <!-- Chess Board -->
-    <div style="display: grid; grid-template-columns: repeat(8, 1fr); aspect-ratio: 1/1; gap: 0; border: 2px solid #2E9AFF; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 20px rgba(46,154,255,0.3);" id="chessboard"></div>
-    
-    <!-- Game Info -->
-    <div style="margin-top: 20px; padding: 15px; background: rgba(0,0,0,0.5); border-radius: 10px; color: white;">
-      <div style="font-size: 18px; font-weight: bold; margin-bottom: 10px; color: #2E9AFF;" id="gameStatus">White's Turn</div>
-      
-      <div>
-        <button onclick="resetGame()" style="background: linear-gradient(135deg, #2E9AFF, #1a5f8a); border: none; color: white; padding: 8px 20px; margin: 5px; border-radius: 8px; cursor: pointer;">🔄 New Game</button>
-        <button onclick="undoMove()" style="background: linear-gradient(135deg, #2E9AFF, #1a5f8a); border: none; color: white; padding: 8px 20px; margin: 5px; border-radius: 8px; cursor: pointer;">↩️ Undo</button>
-      </div>
-      
-      <div style="display: inline-block; padding: 5px 15px; border-radius: 20px; background: #2E9AFF; color: white; margin-top: 10px;" id="turnIndicator">⚪ White to play</div>
-      
-      <div style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px; max-height: 100px; overflow-y: auto; font-size: 12px;">
-        <strong>📝 Move History:</strong>
-        <div id="moveHistory">No moves yet</div>
-      </div>
-    </div>
-    
-  </div>
+
+**🎯 Play by clicking the links below the board!**  
+*Any GitHub user can make a move - it's community-driven!*
+
 </div>
 
 <br/>
 
-**Game Features:**
-- ♟️ Full chess piece movements (Pawn, Rook, Knight, Bishop, Queen, King)
-- ✅ Legal move validation with visual hints
-- ↩️ Undo functionality
-- 🔄 Reset and start new games
-- 🎨 Beautiful UI with real-time game status
+#### Current Board Position:
 
-<script>
-  const initialBoard = [
-    ['♜', '♞', '♝', '♛', '♚', '♝', '♞', '♜'],
-    ['♟', '♟', '♟', '♟', '♟', '♟', '♟', '♟'],
-    ['', '', '', '', '', '', '', ''],
-    ['', '', '', '', '', '', '', ''],
-    ['', '', '', '', '', '', '', ''],
-    ['', '', '', '', '', '', '', ''],
-    ['♙', '♙', '♙', '♙', '♙', '♙', '♙', '♙'],
-    ['♖', '♘', '♗', '♕', '♔', '♗', '♘', '♖']
-  ];
+|     | A | B | C | D | E | F | G | H |
+|-----|---|---|---|---|---|---|---|---|
+| **8** | ♜ | ♞ | ♝ | ♛ | ♚ | ♝ | ♞ | ♜ |
+| **7** | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ |
+| **6** |   |   |   |   |   |   |   |   |
+| **5** |   |   |   |   |   |   |   |   |
+| **4** |   |   |   |   |   |   |   |   |
+| **3** |   |   |   |   |   |   |   |   |
+| **2** | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ |
+| **1** | ♖ | ♘ | ♗ | ♕ | ♔ | ♗ | ♘ | ♖ |
+
+<br/>
+
+#### Make Your Move:
+
+<div align="center">
+
+| From | Valid Moves |
+|------|-------------|
+| **A7** | [A6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+A7+to+A6) |
+| **B7** | [B6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B7+to+B6) |
+| **C7** | [C6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+C7+to+C6) |
+| **D7** | [D6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+D7+to+D6) |
+| **E7** | [E6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+E7+to+E6) |
+| **F7** | [F6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+F7+to+F6) |
+| **G7** | [G6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G7+to+G6) |
+| **H7** | [H6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+H7+to+H6) |
+
+</div>
+
+<br/>
+
+**Game Stats:**
+- ♟️ **Current Turn:** White
+- 📝 **Last Move:** None
+- 👥 **Players:** Anyone can play!
+- 🎯 **Status:** Game in progress
+
+<br/>
+
+<details>
+<summary><b>📜 Move History</b></summary>
+
+- Game started!
+
+</details>
+
+<br/>
+
+<div align="center">
   
-  let board = JSON.parse(JSON.stringify(initialBoard));
-  let currentTurn = 'white';
-  let selectedRow = null;
-  let selectedCol = null;
-  let gameOver = false;
-  let moveHistory = [];
-  
-  function isValidMove(row, col, targetRow, targetCol) {
-    const piece = board[row][col];
-    const targetPiece = board[targetRow][targetCol];
-    if (!piece) return false;
-    
-    const isWhitePiece = piece === piece.toUpperCase() && piece !== piece.toLowerCase();
-    if ((isWhitePiece && currentTurn !== 'white') || (!isWhitePiece && currentTurn !== 'black')) return false;
-    
-    if (targetPiece) {
-      const isWhiteTarget = targetPiece === targetPiece.toUpperCase() && targetPiece !== targetPiece.toLowerCase();
-      if ((isWhitePiece && isWhiteTarget) || (!isWhitePiece && !isWhiteTarget)) return false;
-    }
-    
-    const rowDiff = targetRow - row;
-    const colDiff = targetCol - col;
-    const pieceLower = piece.toLowerCase();
-    
-    switch(pieceLower) {
-      case '♟':
-        const dir = isWhitePiece ? -1 : 1;
-        if (colDiff === 0 && rowDiff === dir && !targetPiece) return true;
-        if (colDiff === 0 && rowDiff === 2*dir && !targetPiece && ((isWhitePiece && row===6) || (!isWhitePiece && row===1))) return true;
-        if (Math.abs(colDiff)===1 && rowDiff===dir && targetPiece) return true;
-        return false;
-      case '♜':
-        if (row !== targetRow && col !== targetCol) return false;
-        return isClear(row, col, targetRow, targetCol);
-      case '♞':
-        return (Math.abs(rowDiff)===2 && Math.abs(colDiff)===1) || (Math.abs(rowDiff)===1 && Math.abs(colDiff)===2);
-      case '♝':
-        if (Math.abs(rowDiff) !== Math.abs(colDiff)) return false;
-        return isClear(row, col, targetRow, targetCol);
-      case '♛':
-        if (row===targetRow || col===targetCol) return isClear(row, col, targetRow, targetCol);
-        if (Math.abs(rowDiff)===Math.abs(colDiff)) return isClear(row, col, targetRow, targetCol);
-        return false;
-      case '♚':
-        return Math.abs(rowDiff)<=1 && Math.abs(colDiff)<=1;
-      default:
-        return false;
-    }
-  }
-  
-  function isClear(row, col, tr, tc) {
-    const rs = row===tr ? 0 : (tr-row)/Math.abs(tr-row);
-    const cs = col===tc ? 0 : (tc-col)/Math.abs(tc-col);
-    let r = row+rs, c = col+cs;
-    while (r !== tr || c !== tc) {
-      if (board[r][c]) return false;
-      r += rs; c += cs;
-    }
-    return true;
-  }
-  
-  function makeMove(row, col, tr, tc) {
-    const piece = board[row][col];
-    board[tr][tc] = piece;
-    board[row][col] = '';
-    moveHistory.unshift(`${piece} ${String.fromCharCode(97+col)}${8-row} → ${String.fromCharCode(97+tc)}${8-tr}`);
-    if (moveHistory.length > 10) moveHistory.pop();
-    updateHistory();
-    currentTurn = currentTurn === 'white' ? 'black' : 'white';
-    updateStatus();
-    checkGameOver();
-  }
-  
-  function checkGameOver() {
-    let wk=false, bk=false;
-    for(let i=0;i<8;i++) for(let j=0;j<8;j++) {
-      if(board[i][j]==='♔') wk=true;
-      if(board[i][j]==='♚') bk=true;
-    }
-    if(!wk) { gameOver=true; document.getElementById('gameStatus').innerHTML='🏆 Black Wins! 🏆'; document.getElementById('gameStatus').style.color='#FFD700'; }
-    if(!bk) { gameOver=true; document.getElementById('gameStatus').innerHTML='🏆 White Wins! 🏆'; document.getElementById('gameStatus').style.color='#FFD700'; }
-  }
-  
-  function updateStatus() {
-    if(gameOver) return;
-    document.getElementById('gameStatus').innerHTML = currentTurn==='white' ? "White's Turn" : "Black's Turn";
-    document.getElementById('turnIndicator').innerHTML = currentTurn==='white' ? '⚪ White to play' : '⚫ Black to play';
-  }
-  
-  function updateHistory() {
-    const div = document.getElementById('moveHistory');
-    if(moveHistory.length===0) div.innerHTML='No moves yet';
-    else div.innerHTML = moveHistory.slice(0,10).map((m,i)=>`${i+1}. ${m}`).join('<br/>');
-  }
-  
-  function resetGame() {
-    board = JSON.parse(JSON.stringify(initialBoard));
-    currentTurn = 'white';
-    selectedRow = null;
-    selectedCol = null;
-    gameOver = false;
-    moveHistory = [];
-    updateHistory();
-    updateStatus();
-    renderBoard();
-    document.getElementById('gameStatus').style.color = '#2E9AFF';
-  }
-  
-  function undoMove() { if(moveHistory.length>0) resetGame(); }
-  
-  function handleClick(row, col) {
-    if(gameOver) { alert('Game over! Click New Game.'); return; }
-    if(selectedRow===null) {
-      if(board[row][col]) {
-        const p = board[row][col];
-        const isW = p===p.toUpperCase() && p!==p.toLowerCase();
-        if((isW && currentTurn==='white') || (!isW && currentTurn==='black')) {
-          selectedRow=row; selectedCol=col; renderBoard();
-        }
-      }
-    } else {
-      if(isValidMove(selectedRow, selectedCol, row, col)) {
-        makeMove(selectedRow, selectedCol, row, col);
-        selectedRow=null; selectedCol=null; renderBoard();
-      } else {
-        selectedRow=null; selectedCol=null; renderBoard();
-      }
-    }
-  }
-  
-  function renderBoard() {
-    const el = document.getElementById('chessboard');
-    el.innerHTML = '';
-    for(let i=0;i<8;i++) {
-      for(let j=0;j<8;j++) {
-        const sq = document.createElement('div');
-        const isLight = (i+j)%2===0;
-        sq.style.cssText = `
-          display: flex; align-items: center; justify-content: center;
-          font-size: clamp(20px, 5vw, 40px); cursor: pointer;
-          background-color: ${isLight ? '#f0d9b5' : '#b58863'};
-          aspect-ratio: 1/1; transition: all 0.2s;
-        `;
-        if(selectedRow===i && selectedCol===j) {
-          sq.style.backgroundColor = '#7b9c3f';
-          sq.style.boxShadow = 'inset 0 0 0 3px #FFD700';
-        }
-        if(selectedRow!==null && isValidMove(selectedRow, selectedCol, i, j)) {
-          sq.style.backgroundColor = '#4caf50';
-          sq.style.opacity = '0.8';
-        }
-        sq.textContent = board[i][j] || '';
-        sq.onclick = ((r,c)=>()=>handleClick(r,c))(i,j);
-        el.appendChild(sq);
-      }
-    }
-  }
-  
-  renderBoard();
-</script>
----
+  *Click any move link above to create an issue. GitHub Actions will automatically update the board!*
+
+</div>
+
 
 ### 🤝 Let's Connect
 
