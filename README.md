@@ -45,7 +45,6 @@
   </tr>
 </table>
 
-
 ---
 
 ### 🛠️ Tech Stack & Tools
@@ -181,7 +180,6 @@
   <a href="https://www.instagram.com/boy_lgaol10/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  
 </p>
 
 ---
