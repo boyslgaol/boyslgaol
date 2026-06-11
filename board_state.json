@@ -1,7 +1,8 @@
 {
-  "turn": "black",
+  "turn": "white",
   "history": [
-    "\u2659 from A2 to A3 (white)"
+    "\u2659 from A2 to A3 (white)",
+    "\u265f from A7 to A6 (black)"
   ],
   "board": {
     "8": {
@@ -15,7 +16,7 @@
       "H": "\u265c"
     },
     "7": {
-      "A": "\u265f",
+      "A": "",
       "B": "\u265f",
       "C": "\u265f",
       "D": "\u265f",
@@ -25,7 +26,7 @@
       "H": "\u265f"
     },
     "6": {
-      "A": "",
+      "A": "\u265f",
       "B": "",
       "C": "",
       "D": "",

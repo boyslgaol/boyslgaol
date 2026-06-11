@@ -52,6 +52,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <summary><b>📜 Move History</b></summary>
 
 - ♙ from A2 to A3 (white)
+- ♟ from A7 to A6 (black)
 
 </details>
 
@@ -59,6 +60,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <summary><b>📜 Move History</b></summary>
 
 - ♙ from A2 to A3 (white)
+- ♟ from A7 to A6 (black)
 
 </details>
 
@@ -66,6 +68,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <summary><b>📜 Move History</b></summary>
 
 - ♙ from A2 to A3 (white)
+- ♟ from A7 to A6 (black)
 
 </details>
 
@@ -73,6 +76,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <summary><b>📜 Move History</b></summary>
 
 - ♙ from A2 to A3 (white)
+- ♟ from A7 to A6 (black)
 
 </details>
 
@@ -253,6 +257,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <summary><b>📜 Move History</b></summary>
 
 - ♙ from A2 to A3 (white)
+- ♟ from A7 to A6 (black)
 
 </details>
 
