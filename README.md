@@ -17,7 +17,7 @@
 
 ---
 
-### 🚀 About Me
+### ðŸš€ About Me
 
 <p align="center">
   <img src="img/baner.png" alt="Banner Boy" width="80%" style="border-radius: 20px; box-shadow: 0 4px 15px rgba(46,154,255,0.3);" />
@@ -30,26 +30,26 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </div>
 
 <details open>
-  <summary><strong>📌 More about me</strong></summary>
+  <summary><strong>ðŸ“Œ More about me</strong></summary>
 
-- 🔭 Working on **advanced Laravel applications** and **enterprise business systems**
-- 🌱 Learning **Livewire**, **Alpine.js**, and **Cloud Architecture**
-- 👯 Looking to collaborate on **open-source Laravel packages**
-- 💬 Ask me about **Laravel**, **PHP**, **MySQL**, **RESTful APIs**
-- ⚡ Fun fact: **I love solving complex business problems with clean code**
+- ðŸ”­ Working on **advanced Laravel applications** and **enterprise business systems**
+- ðŸŒ± Learning **Livewire**, **Alpine.js**, and **Cloud Architecture**
+- ðŸ‘¯ Looking to collaborate on **open-source Laravel packages**
+- ðŸ’¬ Ask me about **Laravel**, **PHP**, **MySQL**, **RESTful APIs**
+- âš¡ Fun fact: **I love solving complex business problems with clean code**
 
 </details>
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### ðŸ› ï¸ Tech Stack & Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,js,react,vue,tailwind,bootstrap,flutter,firebase,git,docker,redis,postman,nginx&perline=8" />
 </p>
 
 <details>
-<summary><b>📦 Backend Development</b></summary>
+<summary><b>ðŸ“¦ Backend Development</b></summary>
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
@@ -59,7 +59,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </details>
 
 <details>
-<summary><b>🎨 Frontend Development</b></summary>
+<summary><b>ðŸŽ¨ Frontend Development</b></summary>
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
@@ -71,7 +71,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </details>
 
 <details>
-<summary><b>📱 Mobile Development</b></summary>
+<summary><b>ðŸ“± Mobile Development</b></summary>
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
@@ -80,7 +80,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </details>
 
 <details>
-<summary><b>⚙️ Databases & DevOps</b></summary>
+<summary><b>âš™ï¸ Databases & DevOps</b></summary>
 <p align="center">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -93,7 +93,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 ---
 
-### 📊 GitHub Analytics
+### ðŸ“Š GitHub Analytics
 
 <p align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=boyslgaol&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9AFF&ring=2E9AFF&fire=2E9AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2E9AFF&sideLabels=2E9AFF" alt="GitHub Streak" width="49%" />
@@ -101,20 +101,20 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 ---
 
-### 🏆 Featured Projects
+### ðŸ† Featured Projects
 
 <p align="center">
   <table>
     <tr>
       <td align="center" width="50%">
-        <h3>🧺 Laundry POS</h3>
+        <h3>ðŸ§º Laundry POS</h3>
         <p>Complete laundry management system with order tracking, pricing, and reporting</p>
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
         <img src="https://img.shields.io/badge/Filament-FFD700?style=flat-square&logo=filament&logoColor=black" />
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       </td>
       <td align="center" width="50%">
-        <h3>💈 Barbershop POS</h3>
+        <h3>ðŸ’ˆ Barbershop POS</h3>
         <p>Barbershop management with appointments, cashier, and employee tracking</p>
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
         <img src="https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white" />
@@ -123,14 +123,14 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
     </tr>
     <tr>
       <td align="center">
-        <h3>🛒 POS Sembako</h3>
+        <h3>ðŸ›’ POS Sembako</h3>
         <p>Retail POS with inventory tracking and sales reporting</p>
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
         <img src="https://img.shields.io/badge/Livewire-4E56A6?style=flat-square&logo=livewire&logoColor=white" />
       </td>
       <td align="center">
-        <h3>🚌 TrayekSmart</h3>
+        <h3>ðŸšŒ TrayekSmart</h3>
         <p>Route optimization app using Dijkstra Algorithm</p>
         <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
         <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
@@ -139,14 +139,14 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
     </tr>
     <tr>
       <td align="center">
-        <h3>🆘 SOS App</h3>
+        <h3>ðŸ†˜ SOS App</h3>
         <p>Emergency response with real-time location sharing</p>
         <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
         <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
         <img src="https://img.shields.io/badge/OSM_API-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white" />
       </td>
       <td align="center">
-        <h3>📝 Survey App</h3>
+        <h3>ðŸ“ Survey App</h3>
         <p>Student satisfaction survey system with analytics</p>
         <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
         <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
@@ -157,7 +157,31 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 ---
 
-### 🤝 Let's Connect
+### â™Ÿï¸ Play Chess Game
+
+<div align="center">
+
+I've built an **interactive chess game** right on my profile! Try it out:
+
+<a href="https://boyslgaol.github.io/chess-game/" target="_blank">
+  <img src="https://img.shields.io/badge/â–¶ï¸_Play_Chess_Game-2E9AFF?style=for-the-badge&logo=github&logoColor=white" alt="Play Chess" />
+</a>
+
+**Game Features:**
+- â™Ÿï¸ Full chess piece movements (Pawn, Rook, Knight, Bishop, Queen, King)
+- âœ“ Legal move validation
+- ðŸ“ Complete move history tracking
+- â†©ï¸ Undo functionality
+- ðŸ”„ Reset and start new games
+- ðŸŽ¨ Beautiful UI with real-time game status
+
+[Download the game file](chess-game.html) and open it in your browser to play locally!
+
+</div>
+
+---
+
+### ðŸ¤ Let's Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/boyseventrilumbangaol/">
@@ -179,7 +203,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 ---
 
-### 💬 Random Dev Quote
+### ðŸ’¬ Random Dev Quote
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
@@ -187,7 +211,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 ---
 
-### 📌 GitHub Metrics
+### ðŸ“Œ GitHub Metrics
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=boyslgaol&theme=tokyonight" alt="Profile Details" width="90%" />
@@ -212,5 +236,5 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <p align="center">
   <img src="https://img.shields.io/badge/Thanks%20For%20Visiting-2E9AFF?style=for-the-badge" />
   <br/>
-  <img src="https://img.shields.io/badge/⭐%20Star%20My%20Repos%20If%20You%20Like%20Them!-FFD700?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/â­%20Star%20My%20Repos%20If%20You%20Like%20Them!-FFD700?style=for-the-badge" />
 </p>
