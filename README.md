@@ -93,20 +93,6 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 ---
 
-### 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=boyslgaol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&icon_color=2E9AFF&rank_icon=github" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boyslgaol&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9AFF&ring=2E9AFF&fire=2E9AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2E9AFF&sideLabels=2E9AFF" alt="GitHub Streak" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boyslgaol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&langs_count=8" alt="Top Languages" width="49%" />
-  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=boyslgaol&theme=tokyonight&no-frame=true&row=2&column=4" alt="GitHub Trophies" width="49%" />
-</p>
-
----
-
 ### 🏆 Featured Projects
 
 <p align="center">
@@ -125,8 +111,8 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
         <img src="https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white" />
         <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-       </td>
-     </tr>
+      </td>
+    </tr>
     <tr>
       <td align="center">
         <h3>🛒 POS Sembako</h3>
@@ -142,7 +128,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
         <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
         <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=flat-square&logo=google-maps&logoColor=white" />
       </td>
-     </tr>
+    </tr>
     <tr>
       <td align="center">
         <h3>🆘 SOS App</h3>
@@ -157,8 +143,36 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
         <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
         <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
       </td>
-     </tr>
+    </tr>
    </>
+</p>
+
+---
+
+### 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=boyslgaol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&icon_color=2E9AFF&rank_icon=github" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=boyslgaol&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9AFF&ring=2E9AFF&fire=2E9AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=2E9AFF&sideLabels=2E9AFF" alt="GitHub Streak" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boyslgaol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&langs_count=8" alt="Top Languages" width="49%" />
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=boyslgaol&theme=tokyonight&no-frame=true&row=2&column=4" alt="GitHub Trophies" width="49%" />
+</p>
+
+---
+
+### 📌 GitHub Metrics
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=boyslgaol&theme=tokyonight" alt="Profile Details" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=boyslgaol&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=boyslgaol&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boyslgaol&theme=tokyonight" width="32%" />
 </p>
 
 ---
@@ -180,7 +194,6 @@ I've built an **interactive chess game** right on my profile! Try it out:
 - ↩️ Undo functionality
 - 🔄 Reset and start new games
 - 🎨 Beautiful UI with real-time game status
-
 
 </div>
 
@@ -212,20 +225,6 @@ I've built an **interactive chess game** right on my profile! Try it out:
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
-</p>
-
----
-
-### 📌 GitHub Metrics
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=boyslgaol&theme=tokyonight" alt="Profile Details" width="90%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=boyslgaol&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=boyslgaol&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boyslgaol&theme=tokyonight" width="32%" />
 </p>
 
 ---
