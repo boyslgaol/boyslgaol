@@ -176,7 +176,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </p>
 
 ---
-### ♟️ Community Chess Game
+### ♟️ Play Chess Game
 
 <br/>
 
