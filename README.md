@@ -178,13 +178,6 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 ---
 ### ♟️ Community Chess Game
 
-<div align="center">
-
-**🎯 Play by clicking the links below the board!**  
-*Any GitHub user can make a move - it's community-driven!*
-
-</div>
-
 <br/>
 
 #### Current Board Position:
