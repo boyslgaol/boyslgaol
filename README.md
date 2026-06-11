@@ -102,7 +102,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boyslgaol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9AFF&langs_count=8" alt="Top Languages" width="49%" />
-  <img src="https://github-profile-trophy.vercel.app/?username=boyslgaol&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" width="49%" />
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=boyslgaol&theme=tokyonight&no-frame=true&row=2&column=4" alt="GitHub Trophies" width="49%" />
 </p>
 
 ---
