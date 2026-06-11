@@ -1,0 +1,39 @@
+name: "♟️ Community Chess Game"
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-move:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, 'Chess Move')
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Process chess move
+        run: |
+          python scripts/update_board.py "${{ github.event.issue.title }}" "${{ github.event.issue.body }}"
+      
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "♟️ Update chess board: ${{ github.event.issue.title }}"
+          file_pattern: "README.md board_state.json"
+      
+      - name: Close issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "✅ Move processed! The board has been updated. Thanks for playing! ♟️"
