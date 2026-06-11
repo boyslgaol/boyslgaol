@@ -193,23 +193,62 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <br/>
 
 #### Make Your Move:
-
 <div align="center">
-
-| From | Valid Moves |
-|------|-------------|
-| **A7** | [A6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+A7+to+A6) |
-| **B7** | [B6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B7+to+B6) |
-| **C7** | [C6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+C7+to+C6) |
-| **D7** | [D6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+D7+to+D6) |
-| **E7** | [E6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+E7+to+E6) |
-| **F7** | [F6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+F7+to+F6) |
-| **G7** | [G6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G7+to+G6) |
-| **H7** | [H6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+H7+to+H6) |
+  
+  🎯 **HOW TO PLAY:** 
+  
+  1. Look at the board above 👆
+  2. Find your piece in the table below 👇
+  3. Click on the square you want to move to
+  4. GitHub Actions will automatically update the board!
+  
+  **It's that simple! Anyone can play!** ♟️
 
 </div>
 
 <br/>
+<div align="center">
+
+**Click any move below to play!** 👇
+
+| Piece | From | Valid Moves |
+|-------|------|-------------|
+| ♟️ Pawn | **A7** | [A6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+A7+to+A6) |
+| ♟️ Pawn | **B7** | [B6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B7+to+B6) |
+| ♟️ Pawn | **C7** | [C6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+C7+to+C6) |
+| ♟️ Pawn | **D7** | [D6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+D7+to+D6) |
+| ♟️ Pawn | **E7** | [E6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+E7+to+E6) |
+| ♟️ Pawn | **F7** | [F6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+F7+to+F6) |
+| ♟️ Pawn | **G7** | [G6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G7+to+G6) |
+| ♟️ Pawn | **H7** | [H6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+H7+to+H6) |
+
+| Piece | From | Valid Moves |
+|-------|------|-------------|
+| ♞ Knight | **B8** | [A6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B8+to+A6) • [C6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B8+to+C6) |
+| ♞ Knight | **G8** | [F6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G8+to+F6) • [H6](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G8+to+H6) |
+
+| Piece | From | Valid Moves |
+|-------|------|-------------|
+| ♙ Pawn | **A2** | [A3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+A2+to+A3) • [A4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+A2+to+A4) |
+| ♙ Pawn | **B2** | [B3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B2+to+B3) • [B4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B2+to+B4) |
+| ♙ Pawn | **C2** | [C3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+C2+to+C3) • [C4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+C2+to+C4) |
+| ♙ Pawn | **D2** | [D3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+D2+to+D3) • [D4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+D2+to+D4) |
+| ♙ Pawn | **E2** | [E3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+E2+to+E3) • [E4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+E2+to+E4) |
+| ♙ Pawn | **F2** | [F3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+F2+to+F3) • [F4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+F2+to+F4) |
+| ♙ Pawn | **G2** | [G3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G2+to+G3) • [G4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G2+to+G4) |
+| ♙ Pawn | **H2** | [H3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+H2+to+H3) • [H4](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+H2+to+H4) |
+
+| Piece | From | Valid Moves |
+|-------|------|-------------|
+| ♘ Knight | **B1** | [A3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B1+to+A3) • [C3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+B1+to+C3) |
+| ♘ Knight | **G1** | [F3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G1+to+F3) • [H3](https://github.com/boyslgaol/boyslgaol/issues/new?title=Chess+Move&body=Move+G1+to+H3) |
+
+</div>
+
+<br/>
+
+**⚠️ Note:** After each move, the board will automatically update. Then new valid moves will be available from the new position!
+
 
 **Game Stats:**
 - ♟️ **Current Turn:** White
