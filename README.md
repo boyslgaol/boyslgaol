@@ -177,9 +177,6 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 
 ---
 ### ♟️ Play Chess Game
-
-<br/>
-
 #### Current Board Position:
 
 |     | A | B | C | D | E | F | G | H |
