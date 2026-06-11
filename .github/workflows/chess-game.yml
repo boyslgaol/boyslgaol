@@ -2,16 +2,19 @@ name: "♟️ Community Chess Game"
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 permissions:
   contents: write
   issues: write
+  actions: read
 
 jobs:
   process-move:
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.title, 'Chess Move')
+    if: |
+      contains(github.event.issue.title, 'Chess Move') || 
+      contains(github.event.issue.labels.*.name, 'chess-move')
     
     steps:
       - name: Checkout repository
@@ -22,9 +25,20 @@ jobs:
         with:
           python-version: '3.11'
       
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
+      - name: Debug issue info
+        run: |
+          echo "Issue Title: ${{ github.event.issue.title }}"
+          echo "Issue Body: ${{ github.event.issue.body }}"
+          echo "Issue Labels: ${{ github.event.issue.labels }}"
+      
       - name: Process chess move
         run: |
           python scripts/update_board.py "${{ github.event.issue.title }}" "${{ github.event.issue.body }}"
+        continue-on-error: false
       
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -32,8 +46,15 @@ jobs:
           commit_message: "♟️ Update chess board: ${{ github.event.issue.title }}"
           file_pattern: "README.md board_state.json"
       
-      - name: Close issue
+      - name: Close issue with comment
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
-          comment: "✅ Move processed! The board has been updated. Thanks for playing! ♟️"
+          comment: |
+            ✅ **Move processed!** 
+            
+            The board has been updated. 
+            
+            ♟️ Next turn: Check the README to see the new board position!
+            
+            Thanks for playing! 🎯
