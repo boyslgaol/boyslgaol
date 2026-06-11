@@ -49,46 +49,31 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </p>
 
 <details>
-<summary><b>📦 Backend Development</b></summary>
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Livewire-4E56A6?style=for-the-badge&logo=livewire&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-</p>
+<summary><b>📜 Move History</b></summary>
+
+- ♙ from A2 to A3 (white)
+
 </details>
 
 <details>
-<summary><b>🎨 Frontend Development</b></summary>
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-</p>
+<summary><b>📜 Move History</b></summary>
+
+- ♙ from A2 to A3 (white)
+
 </details>
 
 <details>
-<summary><b>📱 Mobile Development</b></summary>
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-</p>
+<summary><b>📜 Move History</b></summary>
+
+- ♙ from A2 to A3 (white)
+
 </details>
 
 <details>
-<summary><b>⚙️ Databases & DevOps</b></summary>
-<p align="center">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-</p>
+<summary><b>📜 Move History</b></summary>
+
+- ♙ from A2 to A3 (white)
+
 </details>
 
 ---
@@ -265,13 +250,9 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <br/>
 
 <details>
-<summary><b>📜 Click to view Move History</b></summary>
+<summary><b>📜 Move History</b></summary>
 
-<br/>
-
-| # | Move |
-|:-:|:----:|
-| - | *Game started* |
+- ♙ from A2 to A3 (white)
 
 </details>
 
