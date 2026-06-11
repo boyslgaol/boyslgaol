@@ -22,28 +22,22 @@
 <p align="center">
   <img src="img/baner.png" alt="Banner Boy" width="80%" style="border-radius: 20px; box-shadow: 0 4px 15px rgba(46,154,255,0.3);" />
 </p>
+I'm a passionate Full Stack Developer specializing in Laravel and modern web technologies. With a strong focus on Web Applications and Business Systems, I help businesses transform their ideas into scalable digital solutions.
 
-<table align="center" width="100%">
-  <tr>
-    <td width="60%">
-      <p>I'm a passionate <strong>Full Stack Developer</strong> specializing in <strong>Laravel</strong> and modern web technologies. With a strong focus on <strong>Web Applications</strong> and <strong>Business Systems</strong>, I help businesses transform their ideas into scalable digital solutions.</p>
-      
-      <details open>
-        <summary><strong>📌 More about me</strong></summary>
-        <ul>
-          <li>🔭 Working on <strong>advanced Laravel applications</strong> and <strong>enterprise business systems</strong></li>
-          <li>🌱 Learning <strong>Livewire</strong>, <strong>Alpine.js</strong>, and <strong>Cloud Architecture</strong></li>
-          <li>👯 Looking to collaborate on <strong>open-source Laravel packages</strong></li>
-          <li>💬 Ask me about <strong>Laravel</strong>, <strong>PHP</strong>, <strong>MySQL</strong>, <strong>RESTful APIs</strong></li>
-          <li>⚡ Fun fact: <strong>I love solving complex business problems with clean code</strong></li>
-        </ul>
-      </details>
-    </td>
-    <td align="center" width="40%">
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
+</div>
+<details open>
+  <summary><strong>📌 More about me</strong></summary>
+
+🔭 Working on advanced Laravel applications and enterprise business systems
+🌱 Learning Livewire, Alpine.js, and Cloud Architecture
+👯 Looking to collaborate on open-source Laravel packages
+💬 Ask me about Laravel, PHP, MySQL, RESTful APIs
+⚡ Fun fact: I love solving complex business problems with clean code
+
+
+</details>
 
 ---
 
