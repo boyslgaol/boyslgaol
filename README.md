@@ -147,7 +147,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
   </table>
 </p>
 
-<br/><br/><br/>
+<br/>
 
 ### 📊 GitHub Analytics
 
