@@ -175,7 +175,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=boyslgaol&theme=tokyonight" width="32%" />
 </p>
 
-### ♟️ Community Chess Game
+### ♟️ Community Chess Tournaments
 
 <div align="center">
   
