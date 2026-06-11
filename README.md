@@ -176,7 +176,19 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </p>
 
 ---
-### ♟️ Play Chess Game
+### ♟️ Play Chess 
+<div align="center">
+  
+  🎯 **HOW TO PLAY:** 
+  
+  1. Look at the board above 👆
+  2. Find your piece in the table below 👇
+  3. Click on the square you want to move to
+  4. GitHub Actions will automatically update the board!
+  
+  **It's that simple! Anyone can play!** ♟️
+
+</div>
 #### Current Board Position:
 
 |     | A | B | C | D | E | F | G | H |
@@ -193,18 +205,6 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <br/>
 
 #### Make Your Move:
-<div align="center">
-  
-  🎯 **HOW TO PLAY:** 
-  
-  1. Look at the board above 👆
-  2. Find your piece in the table below 👇
-  3. Click on the square you want to move to
-  4. GitHub Actions will automatically update the board!
-  
-  **It's that simple! Anyone can play!** ♟️
-
-</div>
 
 <br/>
 <div align="center">
