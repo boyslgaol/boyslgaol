@@ -176,14 +176,15 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </p>
 
 ---
-
 ### ♟️ Play Chess Game
 
 <div align="center">
-  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 20px; border-radius: 20px; display: inline-block; width: 100%; max-width: 520px;">
+  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 20px; border-radius: 20px; display: inline-block; width: 100%; max-width: 550px;">
     
+    <!-- Chess Board -->
     <div style="display: grid; grid-template-columns: repeat(8, 1fr); aspect-ratio: 1/1; gap: 0; border: 2px solid #2E9AFF; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 20px rgba(46,154,255,0.3);" id="chessboard"></div>
     
+    <!-- Game Info -->
     <div style="margin-top: 20px; padding: 15px; background: rgba(0,0,0,0.5); border-radius: 10px; color: white;">
       <div style="font-size: 18px; font-weight: bold; margin-bottom: 10px; color: #2E9AFF;" id="gameStatus">White's Turn</div>
       
@@ -206,11 +207,11 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 <br/>
 
 **Game Features:**
-- ♟️ Full chess piece movements
-- ✅ Legal move validation
+- ♟️ Full chess piece movements (Pawn, Rook, Knight, Bishop, Queen, King)
+- ✅ Legal move validation with visual hints
 - ↩️ Undo functionality
-- 🔄 Reset game
-- 🎯 Play directly on profile
+- 🔄 Reset and start new games
+- 🎨 Beautiful UI with real-time game status
 
 <script>
   const initialBoard = [
@@ -234,12 +235,10 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
   function isValidMove(row, col, targetRow, targetCol) {
     const piece = board[row][col];
     const targetPiece = board[targetRow][targetCol];
-    
     if (!piece) return false;
     
     const isWhitePiece = piece === piece.toUpperCase() && piece !== piece.toLowerCase();
-    const isValidTurn = (isWhitePiece && currentTurn === 'white') || (!isWhitePiece && currentTurn === 'black');
-    if (!isValidTurn) return false;
+    if ((isWhitePiece && currentTurn !== 'white') || (!isWhitePiece && currentTurn !== 'black')) return false;
     
     if (targetPiece) {
       const isWhiteTarget = targetPiece === targetPiece.toUpperCase() && targetPiece !== targetPiece.toLowerCase();
@@ -252,91 +251,73 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
     
     switch(pieceLower) {
       case '♟':
-        const direction = isWhitePiece ? -1 : 1;
-        if (colDiff === 0 && rowDiff === direction && !targetPiece) return true;
-        if (colDiff === 0 && rowDiff === 2 * direction && !targetPiece && ((isWhitePiece && row === 6) || (!isWhitePiece && row === 1))) return true;
-        if (Math.abs(colDiff) === 1 && rowDiff === direction && targetPiece) return true;
+        const dir = isWhitePiece ? -1 : 1;
+        if (colDiff === 0 && rowDiff === dir && !targetPiece) return true;
+        if (colDiff === 0 && rowDiff === 2*dir && !targetPiece && ((isWhitePiece && row===6) || (!isWhitePiece && row===1))) return true;
+        if (Math.abs(colDiff)===1 && rowDiff===dir && targetPiece) return true;
         return false;
       case '♜':
         if (row !== targetRow && col !== targetCol) return false;
-        return isPathClear(row, col, targetRow, targetCol);
+        return isClear(row, col, targetRow, targetCol);
       case '♞':
-        return (Math.abs(rowDiff) === 2 && Math.abs(colDiff) === 1) || (Math.abs(rowDiff) === 1 && Math.abs(colDiff) === 2);
+        return (Math.abs(rowDiff)===2 && Math.abs(colDiff)===1) || (Math.abs(rowDiff)===1 && Math.abs(colDiff)===2);
       case '♝':
         if (Math.abs(rowDiff) !== Math.abs(colDiff)) return false;
-        return isPathClear(row, col, targetRow, targetCol);
+        return isClear(row, col, targetRow, targetCol);
       case '♛':
-        if (row === targetRow || col === targetCol) return isPathClear(row, col, targetRow, targetCol);
-        if (Math.abs(rowDiff) === Math.abs(colDiff)) return isPathClear(row, col, targetRow, targetCol);
+        if (row===targetRow || col===targetCol) return isClear(row, col, targetRow, targetCol);
+        if (Math.abs(rowDiff)===Math.abs(colDiff)) return isClear(row, col, targetRow, targetCol);
         return false;
       case '♚':
-        return Math.abs(rowDiff) <= 1 && Math.abs(colDiff) <= 1;
+        return Math.abs(rowDiff)<=1 && Math.abs(colDiff)<=1;
       default:
         return false;
     }
   }
   
-  function isPathClear(row, col, targetRow, targetCol) {
-    const rowStep = row === targetRow ? 0 : (targetRow - row) / Math.abs(targetRow - row);
-    const colStep = col === targetCol ? 0 : (targetCol - col) / Math.abs(targetCol - col);
-    let currentRow = row + rowStep;
-    let currentCol = col + colStep;
-    while (currentRow !== targetRow || currentCol !== targetCol) {
-      if (board[currentRow][currentCol]) return false;
-      currentRow += rowStep;
-      currentCol += colStep;
+  function isClear(row, col, tr, tc) {
+    const rs = row===tr ? 0 : (tr-row)/Math.abs(tr-row);
+    const cs = col===tc ? 0 : (tc-col)/Math.abs(tc-col);
+    let r = row+rs, c = col+cs;
+    while (r !== tr || c !== tc) {
+      if (board[r][c]) return false;
+      r += rs; c += cs;
     }
     return true;
   }
   
-  function makeMove(row, col, targetRow, targetCol) {
+  function makeMove(row, col, tr, tc) {
     const piece = board[row][col];
-    board[targetRow][targetCol] = piece;
+    board[tr][tc] = piece;
     board[row][col] = '';
-    
-    const moveNotation = `${piece} ${String.fromCharCode(97+col)}${8-row} → ${String.fromCharCode(97+targetCol)}${8-targetRow}`;
-    moveHistory.unshift(moveNotation);
+    moveHistory.unshift(`${piece} ${String.fromCharCode(97+col)}${8-row} → ${String.fromCharCode(97+tc)}${8-tr}`);
     if (moveHistory.length > 10) moveHistory.pop();
-    updateMoveHistory();
-    
+    updateHistory();
     currentTurn = currentTurn === 'white' ? 'black' : 'white';
-    updateGameStatus();
+    updateStatus();
     checkGameOver();
   }
   
   function checkGameOver() {
-    let hasWhiteKing = false;
-    let hasBlackKing = false;
-    for (let i = 0; i < 8; i++) {
-      for (let j = 0; j < 8; j++) {
-        if (board[i][j] === '♔') hasWhiteKing = true;
-        if (board[i][j] === '♚') hasBlackKing = true;
-      }
+    let wk=false, bk=false;
+    for(let i=0;i<8;i++) for(let j=0;j<8;j++) {
+      if(board[i][j]==='♔') wk=true;
+      if(board[i][j]==='♚') bk=true;
     }
-    if (!hasWhiteKing) {
-      gameOver = true;
-      document.getElementById('gameStatus').innerHTML = '🏆 Black Wins! 🏆';
-      document.getElementById('gameStatus').style.color = '#FFD700';
-    } else if (!hasBlackKing) {
-      gameOver = true;
-      document.getElementById('gameStatus').innerHTML = '🏆 White Wins! 🏆';
-      document.getElementById('gameStatus').style.color = '#FFD700';
-    }
+    if(!wk) { gameOver=true; document.getElementById('gameStatus').innerHTML='🏆 Black Wins! 🏆'; document.getElementById('gameStatus').style.color='#FFD700'; }
+    if(!bk) { gameOver=true; document.getElementById('gameStatus').innerHTML='🏆 White Wins! 🏆'; document.getElementById('gameStatus').style.color='#FFD700'; }
   }
   
-  function updateGameStatus() {
-    if (gameOver) return;
-    document.getElementById('gameStatus').innerHTML = currentTurn === 'white' ? "White's Turn" : "Black's Turn";
-    document.getElementById('turnIndicator').innerHTML = currentTurn === 'white' ? '⚪ White to play' : '⚫ Black to play';
+  function updateStatus() {
+    if(gameOver) return;
+    document.getElementById('gameStatus').innerHTML = currentTurn==='white' ? "White's Turn" : "Black's Turn";
+    document.getElementById('turnIndicator').innerHTML = currentTurn==='white' ? '⚪ White to play' : '⚫ Black to play';
   }
   
-  function updateMoveHistory() {
-    const historyDiv = document.getElementById('moveHistory');
-    if (moveHistory.length === 0) {
-      historyDiv.innerHTML = 'No moves yet';
-    } else {
-      historyDiv.innerHTML = moveHistory.slice(0, 10).map((move, i) => `${i+1}. ${move}`).join('<br/>');
-    }
+  function updateHistory() {
+    const div = document.getElementById('moveHistory');
+    if(moveHistory.length===0) div.innerHTML='No moves yet';
+    else div.innerHTML = moveHistory.slice(0,10).map((m,i)=>`${i+1}. ${m}`).join('<br/>');
   }
   
   function resetGame() {
@@ -346,89 +327,65 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
     selectedCol = null;
     gameOver = false;
     moveHistory = [];
-    updateMoveHistory();
-    updateGameStatus();
+    updateHistory();
+    updateStatus();
     renderBoard();
     document.getElementById('gameStatus').style.color = '#2E9AFF';
   }
   
-  function undoMove() {
-    if (moveHistory.length > 0) {
-      resetGame();
-    }
-  }
+  function undoMove() { if(moveHistory.length>0) resetGame(); }
   
-  function handleSquareClick(row, col) {
-    if (gameOver) {
-      alert('Game over! Click New Game.');
-      return;
-    }
-    
-    if (selectedRow === null) {
-      if (board[row][col]) {
-        const piece = board[row][col];
-        const isWhitePiece = piece === piece.toUpperCase() && piece !== piece.toLowerCase();
-        if ((isWhitePiece && currentTurn === 'white') || (!isWhitePiece && currentTurn === 'black')) {
-          selectedRow = row;
-          selectedCol = col;
-          renderBoard();
+  function handleClick(row, col) {
+    if(gameOver) { alert('Game over! Click New Game.'); return; }
+    if(selectedRow===null) {
+      if(board[row][col]) {
+        const p = board[row][col];
+        const isW = p===p.toUpperCase() && p!==p.toLowerCase();
+        if((isW && currentTurn==='white') || (!isW && currentTurn==='black')) {
+          selectedRow=row; selectedCol=col; renderBoard();
         }
       }
     } else {
-      if (isValidMove(selectedRow, selectedCol, row, col)) {
+      if(isValidMove(selectedRow, selectedCol, row, col)) {
         makeMove(selectedRow, selectedCol, row, col);
-        selectedRow = null;
-        selectedCol = null;
-        renderBoard();
+        selectedRow=null; selectedCol=null; renderBoard();
       } else {
-        selectedRow = null;
-        selectedCol = null;
-        renderBoard();
+        selectedRow=null; selectedCol=null; renderBoard();
       }
     }
   }
   
   function renderBoard() {
-    const boardElement = document.getElementById('chessboard');
-    boardElement.innerHTML = '';
-    
-    for (let i = 0; i < 8; i++) {
-      for (let j = 0; j < 8; j++) {
-        const square = document.createElement('div');
-        const isLight = (i + j) % 2 === 0;
-        square.style.cssText = `
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: clamp(20px, 5vw, 40px);
-          cursor: pointer;
+    const el = document.getElementById('chessboard');
+    el.innerHTML = '';
+    for(let i=0;i<8;i++) {
+      for(let j=0;j<8;j++) {
+        const sq = document.createElement('div');
+        const isLight = (i+j)%2===0;
+        sq.style.cssText = `
+          display: flex; align-items: center; justify-content: center;
+          font-size: clamp(20px, 5vw, 40px); cursor: pointer;
           background-color: ${isLight ? '#f0d9b5' : '#b58863'};
-          aspect-ratio: 1/1;
-          transition: all 0.2s ease;
+          aspect-ratio: 1/1; transition: all 0.2s;
         `;
-        
-        if (selectedRow === i && selectedCol === j) {
-          square.style.backgroundColor = '#7b9c3f';
-          square.style.boxShadow = 'inset 0 0 0 3px #FFD700';
+        if(selectedRow===i && selectedCol===j) {
+          sq.style.backgroundColor = '#7b9c3f';
+          sq.style.boxShadow = 'inset 0 0 0 3px #FFD700';
         }
-        
-        if (selectedRow !== null && selectedCol !== null && isValidMove(selectedRow, selectedCol, i, j)) {
-          square.style.backgroundColor = '#4caf50';
-          square.style.opacity = '0.8';
+        if(selectedRow!==null && isValidMove(selectedRow, selectedCol, i, j)) {
+          sq.style.backgroundColor = '#4caf50';
+          sq.style.opacity = '0.8';
         }
-        
-        square.textContent = board[i][j] || '';
-        square.onclick = (function(r, c) {
-          return function() { handleSquareClick(r, c); };
-        })(i, j);
-        
-        boardElement.appendChild(square);
+        sq.textContent = board[i][j] || '';
+        sq.onclick = ((r,c)=>()=>handleClick(r,c))(i,j);
+        el.appendChild(sq);
       }
     }
   }
   
   renderBoard();
 </script>
+---
 
 ### 🤝 Let's Connect
 
