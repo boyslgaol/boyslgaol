@@ -92,7 +92,6 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
 </details>
 
 ---
-
 ### 🏆 Featured Projects
 
 <p align="center">
@@ -144,9 +143,10 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
         <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
       </td>
     </tr>
-   </>
+  </table>
 </p>
 
+<br/><br/><br/>
 ---
 
 ### 📊 GitHub Analytics
