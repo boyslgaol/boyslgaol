@@ -48,35 +48,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
   <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,js,react,vue,tailwind,bootstrap,flutter,firebase,git,docker,redis,postman,nginx&perline=8" />
 </p>
 
-<details>
-<summary><b>📜 Move History</b></summary>
 
-- ♙ from A2 to A3 (white)
-
-</details>
-
-<details>
-<summary><b>📜 Move History</b></summary>
-
-- ♙ from A2 to A3 (white)
-
-</details>
-
-<details>
-<summary><b>📜 Move History</b></summary>
-
-- ♙ from A2 to A3 (white)
-
-</details>
-
-<details>
-<summary><b>📜 Move History</b></summary>
-
-- ♙ from A2 to A3 (white)
-
-</details>
-
----
 
 ### 🏆 Featured Projects
 
