@@ -48,7 +48,7 @@ I'm a passionate **Full Stack Developer** specializing in **Laravel** and modern
   <img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,js,react,vue,tailwind,bootstrap,flutter,firebase,git,docker,redis,postman,nginx&perline=8" />
 </p>
 
-
+---
 
 ### 🏆 Featured Projects
 
